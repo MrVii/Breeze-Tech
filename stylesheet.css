@@ -10,3 +10,9 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   font: inherit;
   vertical-align: baseline;
 }
+
+.header {
+  height:50px;
+  width:100%;
+  background-image: url("/Users/Long/Development/Breeze-Tech/assets/space.gif");
+}
