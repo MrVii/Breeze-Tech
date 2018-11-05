@@ -10,7 +10,11 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   font: inherit;
   vertical-align: baseline;
 }
-
+header{
+  width:100%;
+  background-color: gold;
+  height: 200px;
+}
 
 
 
@@ -67,10 +71,4 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
     border-top: 0;
     border-bottom: 0;
     background-image: url();
-}
-.footwrapper{
-.header {
-  height:50px;
-  width:100%;
-  background-image: url("/Users/Long/Development/Breeze-Tech/assets/space.gif");
 }
