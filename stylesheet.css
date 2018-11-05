@@ -11,8 +11,6 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   vertical-align: baseline;
 }
 
-<<<<<<< HEAD
-
 
 
 
@@ -71,11 +69,8 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
     background-image: url();
 }
 .footwrapper{
-
-=======
 .header {
   height:50px;
   width:100%;
   background-image: url("/Users/Long/Development/Breeze-Tech/assets/space.gif");
->>>>>>> 23e3c0e030be3c6b654f03385ef0847acba0b3b7
 }
