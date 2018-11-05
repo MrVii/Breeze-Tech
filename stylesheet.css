@@ -13,27 +13,47 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 header{
   width:100%;
   background-color: gold;
-  height: 200px;
+  height: 120px;
   background: linear-gradient(to top right, #d4afb9 0%, #d1cfe2 25%, #9cadce 50%, #7ec4cf 75%, #52b2cf 100%);
+  margin-bottom: 20px;
 }
-body{
+html{
+  background-image: url("assets/flames_red.gif");
+}
+.body{
   background: -webkit-radial-gradient(center, ellipse cover, #d4afb9 0%,#d1cfe2 25%,#9cadce 50%,#7ec4cf 75%,#52b2cf 100%);
+  margin: 0 15% 0 15%;
+}
+header img{
+  margin-left:35%;
+}
+h2{
+  font-size: 32px;
+}
+p{
+  width:900px;
+  height:400px;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 0 0 20px;
 }
 a h1{
   color: #52B2CF;
 }
 section{
-  margin-top: 20px;
+  padding-top: 20px;
+  height:560px;
 }
-section h1{
-  text-align: center;
-  font-size: 25px;
+/*the about us */
+section a img{
+  margin-left:45%;
 }
 /*---------------------------------------------------------*/
 .footer{
   height: 50px;
   border: 3px solid black;
-  height: 200px;
+  height: 120px;
+  margin-top: 20px;
   text-align: center;
   position: relative;
   background: linear-gradient(to top right, #d4afb9 0%, #d1cfe2 25%, #9cadce 50%, #7ec4cf 75%, #52b2cf 100%);
@@ -44,7 +64,7 @@ section h1{
     left: 50%;
     top: -1%;
     width: 20px;
-    height: 202px;
+    height: 102%;
     border-right: 3px solid black;
     border-left: 3px solid black;
     border-top: 0;
