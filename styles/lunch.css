@@ -1,0 +1,80 @@
+html{
+  background-image: url("../assets/posture.gif");
+}
+body{
+  margin:0;
+}
+.text h1, p{
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  color:#002A2A;
+  width:200px;
+  height: auto;
+  cursor: default;
+}
+#sad{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px auto;
+  grid-template-rows: 536px 300px;
+}
+.a {
+  grid-column: 2 / span 1;
+  grid-row: 0 / span 1;
+
+}
+.b {
+  grid-column: 3 / span 1;
+  grid-row: 0 / span 1;
+}
+.c {
+  grid-column: 4 / span 1;
+  grid-row: 0 / span 1;
+}
+.d {
+  grid-column: 5 / span 1;
+  grid-row: 0 / span 1;
+}
+.e {
+  grid-column: 6 / span 1;
+  grid-row: 0 / span 1;
+}
+
+.i {
+  grid-column: 5 / span 1;
+  grid-row: 2 span 1;
+}
+.j {
+  grid-column: 7 / span 1;
+  grid-row: 1 span 1;
+}
+#disco{
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right:50%;
+}
+#peat{
+  position: absolute;
+  z-index: 99;
+  top: -2%;
+  right: 34%;
+}
+.othertext{
+  width: 111%;
+  position: absolute;
+  z-index: 99;
+  top: 31%;
+  right: -51%;
+}
+.othertext h1{
+  font-family: manic-depressive;
+  cursor: default;
+}
+button{
+  background-color: transparent;
+  border: none;
+  color:#002A2A;
+  width:200px;
+  height: auto;
+  cursor: default;
+}
