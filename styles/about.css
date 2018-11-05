@@ -15,6 +15,24 @@ body {
   background-image:url("../assets/space.gif");
 }
 
+.container {
+  margin:auto;
+  background-color: #000;
+  border: 1px solid #FFF;
+  height: 100%;
+  width: 80%;
+}
+
+.td {
+
+}
+
+.nav {
+  margin-top: 2%;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
 
 
 
