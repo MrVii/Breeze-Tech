@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'boogalooregular';
+    src: url('boogaloo-regular.woff2') format('woff2'),
+         url('boogaloo-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'manic-depressiveregular';
+    src: url('manic-depressive.woff2') format('woff2'),
+         url('manic-depressive.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
