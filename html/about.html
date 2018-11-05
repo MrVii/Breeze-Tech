@@ -7,16 +7,49 @@
   <body>
 
 
-<div class="container">
+<div class="navContainer">
   <table class="nav">
     <tr>
-      <td><a href="../index.html">MAIN INDEX</a></td>
+      <td><a href="#">MAIN INDEX</a></td>
       <td><a href="../index.html">MAIN INDEX</a></td>
       <td><a href="../index.html">MAIN INDEX</a></td>
       <td><a href="../index.html">MAIN INDEX</a></td>
     </tr>
   </table>
 </div>
+
+<div class="titleContainer">
+  <h1 class="title">About us</h1>
+  <a href="#">
+    <img id="freestuff" onclick="myFunction()" src="../assets/freestuff.gif"></img>
+
+    <script>
+function myFunction() {
+    document.getElementById("text").style.visibility = "hidden";
+}
+</script>
+
+  </a>
+</div>
+
+<div class="mainContainer">
+  <img src="../assets/machine.gif"></img>
+  <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non ante porta, feugiat ex ac, blandit libero. Suspendisse tincidunt arcu non est mattis, at pulvinar ante vestibulum. Nunc accumsan aliquam metus, gravida cursus nisi ornare non. Proin iaculis mi vel dictum porta. In eget fringilla nulla. Vivamus magna arcu, ornare quis gravida in, condimentum in est. Sed a convallis eros. Duis ipsum leo, rhoncus a sapien et, condimentum condimentum augue. Proin vehicula augue aliquam, hendrerit lacus faucibus, maximus tellus. <br>
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non ante porta, feugiat ex ac, blandit libero. Suspendisse tincidunt arcu non est mattis, at pulvinar ante vestibulum. Nunc accumsan aliquam metus, gravida cursus nisi ornare non. Proin iaculis mi vel dictum porta. In eget fringilla nulla. Vivamus magna arcu, ornare quis gravida in, condimentum in est. Sed a convallis eros. Duis ipsum leo, rhoncus a sapien et, condimentum condimentum augue. Proin vehicula augue aliquam, hendrerit lacus faucibus, maximus tellus. <br>
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non ante porta, feugiat ex ac, blandit libero. Suspendisse tincidunt arcu non est mattis, at pulvinar ante vestibulum. Nunc accumsan aliquam metus, gravida cursus nisi ornare non. Proin iaculis mi vel dictum porta. In eget fringilla nulla. Are you even reading this? Sed a convallis eros. Duis ipsum leo, rhoncus a sapien et, condimentum condimentum augue. Proin vehicula augue aliquam, hendrerit lacus faucibus, maximus <span onclick="tattle()">tellus</span>. <br>
+
+  <script>
+  function tattle() {
+    prompt("Please tell us a secret:");
+  }
+  </script>
+
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non ante porta, feugiat ex ac, blandit libero. Suspendisse tincidunt arcu non est mattis, at pulvinar ante vestibulum. Nunc accumsan aliquam metus, gravida cursus nisi ornare non. Proin iaculis mi vel dictum porta. In eget fringilla nulla. Vivamus magna arcu, ornare quis gravida in, condimentum in est. Sed a convallis eros. Duis ipsum leo, rhoncus a sapien et, condimentum condimentum augue. Proin vehicula augue aliquam, hendrerit lacus faucibus, maximus tellus. </p>
+</div>
+<p id="secret">HELLO WORLD</p>
 
 
 

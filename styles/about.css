@@ -13,20 +13,17 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 
 body {
   background-image:url("../assets/space.gif");
+  margin-top:5%;
 }
 
-.container {
+.navContainer {
   margin:auto;
   background-color: #000;
   border: 1px solid #FFF;
   height: 100%;
   width: 80%;
 }
-
-.td {
-
-}
-
+.td {}
 .nav {
   margin-top: 2%;
   height: 50px;
@@ -34,65 +31,48 @@ body {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------------------------*/
-.footer{
+.titleContainer {
+  margin:auto;
+  background-color: #000;
+  border: 1px solid #FFF;
+  height: 100%;
+  width: 80%;
+  margin-top: 2%;
   height: 50px;
-  background-color: #e8e8e8;
-  border: 3px solid black;
-  height: 200px;
   text-align: center;
-  position: relative;
 }
-.footer::after{
-    content: '';
-    position: absolute;
-    left: 42%;
-    top: -1%;
-    width: 20px;
-    height: 202px;
-    border-right: 3px solid black;
-    border-left: 3px solid black;
-    border-top: 0;
-    border-bottom: 0;
-    background-image: url();
+.title {
+  margin: .5%;
+  color: #FFF;
+  font-size: 35px;
+  float: left;
 }
-.footwrapper{
-.header {
-  height:50px;
-  width:100%;
-  background-image: url("/Users/Long/Development/Breeze-Tech/assets/space.gif");
+#freestuff {
+  margin: 1%;
+  float: right;
+}
+
+.mainContainer {
+  margin:auto;
+  background-color: #000;
+  color: #FFF;
+  border: 1px solid #FFF;
+  height: 100%;
+  width: 80%;
+  margin-top: 2%;
+}
+.mainContainer p {
+  width: 80%;
+}
+.mainContainer img {
+  float: right;
+  height: 200px;
+}
+
+#secret {
+  text-align: center;
+}
+
+span:hover {
+  color: #red;
 }
