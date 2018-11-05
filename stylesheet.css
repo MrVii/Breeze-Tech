@@ -14,55 +14,34 @@ header{
   width:100%;
   background-color: gold;
   height: 200px;
+  background: linear-gradient(to top right, #d4afb9 0%, #d1cfe2 25%, #9cadce 50%, #7ec4cf 75%, #52b2cf 100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body{
+  background: -webkit-radial-gradient(center, ellipse cover, #d4afb9 0%,#d1cfe2 25%,#9cadce 50%,#7ec4cf 75%,#52b2cf 100%);
+}
+a h1{
+  color: #52B2CF;
+}
+section{
+  margin-top: 20px;
+}
+section h1{
+  text-align: center;
+  font-size: 25px;
+}
 /*---------------------------------------------------------*/
 .footer{
   height: 50px;
-  background-color: #e8e8e8;
   border: 3px solid black;
   height: 200px;
   text-align: center;
   position: relative;
+  background: linear-gradient(to top right, #d4afb9 0%, #d1cfe2 25%, #9cadce 50%, #7ec4cf 75%, #52b2cf 100%);
 }
 .footer::after{
     content: '';
     position: absolute;
-    left: 42%;
+    left: 50%;
     top: -1%;
     width: 20px;
     height: 202px;
