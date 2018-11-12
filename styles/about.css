@@ -72,7 +72,9 @@ body {
 #secret {
   text-align: center;
 }
-
 span:hover {
   color: #red;
+}
+#alienbtn {
+  visibility: hidden;
 }
