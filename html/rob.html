@@ -3,33 +3,58 @@
   <head>
     <link rel="stylesheet" type="text/css" href="../styles/rob.css">
     <link rel="stylesheet" type="text/css" href="../styles/Fonts/fonts.css">
-    <script src="rob.js"></script>
+    <script type="text/javascript" src="rob.js"></script>
+
   </head>
   <body>
 
 <table>
   <tr>
-    <td><button onclick="hunt()">Hunt Food</button></td>
-    <td><button onclick="water()">Gather Water</button></td>
+    <td><button onclick="getFood()">Hunt Food</button></td>
+    <td><button onclick="getWater()">Gather Water</button></td>
     <td><button onclick="supply()">Gather Supplies</button></td>
   </tr>
-  <tr>
-    <td><button>X</button></td>
-    <td><button>X</button></td>
-    <td><button>X</button></td>
-  </tr>
-  <tr>
-    <td><button>X</button></td>
-    <td><button>X</button></td>
-    <td><button>X</button></td>
-  </tr>
+</table>
 
+<div id="test">
   <h1>Food: </h1>
-  <p id="foodDisplay"></p>
+  <p id="foodDisplay">0</p>
   <h1>Water: </h1>
-  <p id="waterDisplay"></p>
+  <p id="waterDisplay">0</p>
   <h1>Supplies: </h1>
-  <p id="supplyDisplay"></p>
+  <p id="supplyDisplay">0</p>
+</div>
+
+  <script>
+  var time = 24;
+  var food = 0;
+  var water = 0;
+
+    function getFood() {
+        food += 1;
+        document.getElementById("foodDisplay").innerHTML = food;
+        checkTime();
+    };
+
+    function getWater() {
+        water += 1;
+        document.getElementById("waterDisplay").innerHTML = water;
+        checkTime();
+    };
+
+    function checkTime() {
+      time -= 1;
+      if(time <= 12) {
+        document.body.style.background= "#000"
+        document.getElementById('test').color= "#FFF"
+      }
+      if(time === 0) {
+        document.body.style.background= "#FFF"
+        document.getElementById('test').style.color= "#000"
+        time = 24
+      }
+    }
+  </script>
 
 
   </body>
