@@ -10,8 +10,8 @@
 
 
 
-<div id="border" class="border">
-  <table id="test">
+<div id="border" class="gatheringBorder">
+  <table id="gathering">
     <tr>
       <td><p>Food: </p></td>
       <td><p class="variable" id="foodDisplay">0</p></td>
@@ -32,11 +32,27 @@
     <button onclick="getSupplies()">Gather Supplies</button><br>
 </div>
 
+<div id="aborder" class="timeBorder">
+  <table id="time">
+    <tr>
+      <td>Days: </td>
+      <td id="dateDisplay" class="variable">0</td>
+    </tr>
+    <tr>
+      <td>Hour: </td>
+      <td id="hourDisplay" class="variable">24</td>
+    </tr>
+  </table>
+</div>
+
+
   <script>
   var time = 24;
+  var date = 0;
   var food = 0;
   var water = 0;
   var supply = 0;
+
 
     function getFood() {
         food += 1;
@@ -58,17 +74,24 @@
 
     function checkTime() {
       time -= 1;
+      document.getElementById("hourDisplay").innerHTML = time;
+      document.getElementById("dateDisplay").innerHTML = date;
       if(time <= 12) {
         document.body.style.background= "#000"
-        var elem = document.getElementById("test");
-        elem.style.color = "#FFF";
+        document.getElementById("gathering").style.color = "#FFF";
+        document.getElementById("time").style.color = "#FFF";
         document.getElementById("border").style.borderColor = "#FFF";
+        document.getElementById("aborder").style.borderColor = "#FFF";
       }
       if(time === 0) {
         document.body.style.background= "#FFF"
-        document.getElementById('test').style.color= "#000"
+        document.getElementById('gathering').style.color= "#000"
         document.getElementById("border").style.borderColor = "#000";
+        document.getElementById("time").style.color = "#000";
+        document.getElementById("aborder").style.borderColor = "#000";
+        document.getElementById("hourDisplay").innerHTML = time;
         time = 24
+        date += 1;
       }
     }
 

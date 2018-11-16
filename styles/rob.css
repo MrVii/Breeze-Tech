@@ -2,27 +2,26 @@ body {
   background-color: #FFF;
 }
 
-
-.border {
-  width:110px;
+.gatheringBorder {
   border: 1px solid #000;
+  width:110px;
 }
-#test {
-  margin:5px;
+.timeBorder {
+  margin-top: 10px;
+  border: 1px solid #000;
+  width:110px;
+}
+.variable {
+  padding-left:17px;
 }
 
-#test tr {
-  width:100px;
+#test {
+  width:110px;
+  margin:5px;
 }
 button {
   width:110px;
 }
-
-
 #test p {
   color: inherit;
-}
-
-.variable {
-  padding-left: 15px;
 }
