@@ -2,6 +2,27 @@ body {
   background-color: #FFF;
 }
 
+
+.border {
+  width:110px;
+  border: 1px solid #000;
+}
+#test {
+  margin:5px;
+}
+
+#test tr {
+  width:100px;
+}
+button {
+  width:110px;
+}
+
+
 #test p {
   color: inherit;
+}
+
+.variable {
+  padding-left: 15px;
 }
