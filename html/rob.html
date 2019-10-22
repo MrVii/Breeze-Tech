@@ -92,6 +92,20 @@
         document.getElementById("hourDisplay").innerHTML = time;
         time = 24
         date += 1;
+
+
+        switch(date) {
+          case 3:
+            alert("Rats have infected your food.");
+            food -= 15;
+            document.getElementById("foodDisplay").innerHTML = food;
+            break;
+          case 5:
+            alert("A wandering man gives you waterskins.");
+            water += 5;
+            document.getElementById("waterDisplay").innerHTML = water;
+            break;
+        }
       }
     }
 
